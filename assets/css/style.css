@@ -20,11 +20,14 @@ main {
 
 .container-fluid {
     height: 100%;
-    padding: 0;
 }
 
+.row {
+    min-height: 100%;
+}
+
+/* serach sidebar styles */
 .sidebar {
-    height: 100%;
     background-color: whitesmoke;
 }
 
@@ -38,9 +41,42 @@ h5 {
 
 .flex {
     display: flex;
-    flex-direction: row;
 }
 
 .list-group {
     margin-top: 15px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+/* current weather conditions styles */
+.city-info {
+    border: 1px solid lightgray;
+    border-radius: .25rem;
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.city-info h3 {
+    padding-bottom: 15px;
+}
+
+/* 5 day forecast styles */
+.forecast h3 {
+    padding-top: 20px;
+}
+
+.card {
+    background-color: dodgerblue;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card :last-child {
+    margin-bottom: 0;
 }
