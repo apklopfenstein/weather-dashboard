@@ -97,7 +97,7 @@ var createFiveDayForecast = function (ocData) {
     var forecastRowEl = $('<div class="flex cards row justify-content-between">');
     forecastContainerEl.append(forecastRowEl);
 
-    for (i = 0; i < 5; i++) {
+    for (i = 1; i < 6; i++) {
         var day = ocData.daily[i];
 
         var cardEl = $('<div class="card col-lg-2">');
