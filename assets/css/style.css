@@ -63,6 +63,34 @@ h5 {
 
 .city-info h3 {
     padding-bottom: 15px;
+    line-height: 50px;
+}
+
+/* styles for UV Index */
+
+.uv-low {
+    background-color: rgb(94, 233, 94);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.uv-med {
+    background-color: rgb(255, 255, 111);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.uv-med-high {
+    background-color: rgb(248, 185, 68);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.uv-high {
+    background-color: rgb(243, 61, 61);
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
 }
 
 /* 5 day forecast styles */
