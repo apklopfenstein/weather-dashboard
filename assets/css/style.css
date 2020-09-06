@@ -67,8 +67,7 @@ h5 {
     line-height: 50px;
 }
 
-/* styles for UV Index */
-
+/* color code for UV Index */
 .uv-low {
     background-color: rgb(94, 233, 94);
     border-radius: 2px;
