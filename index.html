@@ -21,9 +21,9 @@
                 <!-- search for city -->
                 <div class="col-lg-3 sidebar">
                     <h5>Search for a City:</h5>
-                    <div class="flex">
+                    <form class="flex" id="search">
                         <input class="form-control" type="text">
-                        <button type="button" class="btn btn-primary" id="search" data-toggle="button"
+                        <button type="submit" class="btn btn-primary" data-toggle="button"
                             aria-pressed="false">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -33,45 +33,11 @@
                                     d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
                             </svg>
                         </button>
-                    </div>
+                    </form>
                     <ul class="list-group">
                     </ul>
                 </div>
-
                 <div class="col-lg-9" id="weather">
-                    <!-- 5 day forecast -->
-                    <div class="forecast">
-                        <h3>5-Day Forecast:</h3>
-                        <div class="container">
-                            <div class="flex cards row justify-content-between">
-                                <div class="card col-lg-2">
-                                    <h5></h5>
-                                    <p>Temp: </p>
-                                    <p>Humidity: </p>
-                                </div>
-                                <div class="card col-lg-2">
-                                    <h5></h5>
-                                    <p>Temp: </p>
-                                    <p>Humidity: </p>
-                                </div>
-                                <div class="card col-lg-2">
-                                    <h5></h5>
-                                    <p>Temp: </p>
-                                    <p>Humidity: </p>
-                                </div>
-                                <div class="card col-lg-2">
-                                    <h5></h5>
-                                    <p>Temp: </p>
-                                    <p>Humidity: </p>
-                                </div>
-                                <div class="card col-lg-2">
-                                    <h5></h5>
-                                    <p>Temp: </p>
-                                    <p>Humidity: </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

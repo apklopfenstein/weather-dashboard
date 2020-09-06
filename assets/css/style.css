@@ -49,6 +49,7 @@ h5 {
 
 .list-group-item {
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 /* current weather conditions styles */
@@ -96,6 +97,7 @@ h5 {
 /* 5 day forecast styles */
 .forecast h3 {
     padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 .card {
@@ -103,6 +105,11 @@ h5 {
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.card-img {
+    margin: auto;
+    width: 50px;
 }
 
 .card :last-child {
